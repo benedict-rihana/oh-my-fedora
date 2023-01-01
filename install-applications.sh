@@ -15,9 +15,10 @@ cd $TEMP
 
 # netease-music-tui is not working due to login issues.
 # ./netease-music-tui.sh
-# ./vscode.sh
-# ./web-greeter.sh
+./vscode.sh
+./web-greeter.sh
 ./cmus.sh
+./bbdown-install.sh
 
 rm -rf $TEMP
 

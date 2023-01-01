@@ -18,3 +18,8 @@ export QT_IM_MODULE=ibus
 alias dev="cd ~/Projects/"
 alias downloads="cd ~/Downloads/"
 alias goconf="cd ~/.config/"
+alias mydata="cd ~/Data/"
+
+if [[ -f ~/.proxyrc ]]; then
+    . ~/.proxyrc
+fi

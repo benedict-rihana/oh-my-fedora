@@ -1,0 +1,1 @@
+unset {http,https,ftp,all}_proxy
