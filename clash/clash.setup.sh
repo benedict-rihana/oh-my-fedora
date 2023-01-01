@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+echo "sherlocked" | sudo -S dnf install proxychains-ng -y
+
 cp -r clash $HOME/.config
 
 cp -f enable-proxy ~/.enable-proxy
