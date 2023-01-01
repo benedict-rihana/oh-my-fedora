@@ -19,6 +19,7 @@ cd $TEMP
 ./web-greeter.sh
 ./cmus.sh
 ./bbdown-install.sh
+./install-fedora-software.sh
 
 rm -rf $TEMP
 
