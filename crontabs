@@ -1,2 +1,2 @@
-*/5 * * * * DISPLAY=:0 /home/benedict/.config/scripts/wallpaper.sh >/dev/null 1>&2
+*/30 * * * * DISPLAY=:0 /home/benedict/.config/scripts/wallpaper.sh >/dev/null 1>&2
 0 * * * * /home/benedict/.local/bin/update-lock-screen.sh >/dev/null 1>&2
