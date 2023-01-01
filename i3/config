@@ -57,7 +57,8 @@ floating_modifier $mod
 bindsym $mod+Return exec xfce4-terminal
 
 # start default browser
-bindsym $mod+b exec chromium-browser
+bindsym $mod+b exec google-chrome
+bindsym $win+b exec microsoft-edge
 
 # start developer tools
 bindsym $mod+c exec code

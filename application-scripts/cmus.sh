@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "sherlocked" | dnf -S install cmus -y
+echo "sherlocked" | sudo -S dnf install cmus -y

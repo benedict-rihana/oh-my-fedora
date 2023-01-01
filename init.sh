@@ -33,7 +33,7 @@ echo "sherlocked" | sudo -S dnf install slick-greeter -y
 sudo dnf install ibus-pinyin -y
 # sudo dnf copr enable antergos/lightdm-webkit2-greeter -y
 
-sudo dnf install materia-gtk-theme
+sudo dnf install materia-gtk-theme -y
 
 
 ranger --copy-config=all
@@ -89,3 +89,4 @@ mv $HOME/.config/xfce4/terminal/colorschemes $HOME/.local/share/xfce4/terminal/
 source $HOME/.bash_profile
 source $HOME/.bashrc
 
+exec "./nerd font/linux.install.sh"

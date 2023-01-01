@@ -9,15 +9,17 @@ mkdir $TEMP
 
 cp -r application-scripts/* $TEMP 
 
-cp cmus ~/.config/
+cp -r cmus ~/.config/
 
 cd $TEMP
 
 # netease-music-tui is not working due to login issues.
 # ./netease-music-tui.sh
-./vscode.sh
-./web-greeter.sh
+# ./vscode.sh
+# ./web-greeter.sh
 ./cmus.sh
 
 rm -rf $TEMP
+
+echo "sherlocked" | sudo -S rm -rf $TEMP
 

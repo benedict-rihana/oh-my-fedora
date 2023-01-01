@@ -9,11 +9,11 @@ if [[ ! -z $1 ]]; then
   cd ..
   cp -f themes/$1.conf ~/.config/i3/theme.conf
 else
-  echo "copy default theme catppucin-mocha"
+  echo "copy default theme catppuccin-mocha"
   cd polybar
-  ./set-theme.sh catppucin-mocha
+  ./set-theme.sh catppuccin-mocha
   cd ..
-  cp -f themes/catppucin-mocha.conf ~/.config/i3/theme.conf
+  cp -f themes/catppuccin-mocha.conf ~/.config/i3/theme.conf
 fi
 
 CONF=$HOME/.config
