@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=idea``
+Type=Application
+Categories=Development
+Name=Idea
+Icon=~/Applications/idea/bin/idea.svg
+Terminal=false

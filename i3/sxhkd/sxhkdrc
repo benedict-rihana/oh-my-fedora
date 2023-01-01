@@ -1,0 +1,5 @@
+super + y
+    polybar-msg cmd toggle
+
+super + shift + f
+    /home/benedict/.local/bin/fullscreen.sh
