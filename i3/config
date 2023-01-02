@@ -64,6 +64,7 @@ bindsym $win+b exec microsoft-edge
 bindsym $mod+c exec code
 bindsym $win+j exec idea
 
+bindsym $mod+Shift+v exec vmware
 
 # kill focused window
 bindsym $mod+q kill
