@@ -230,6 +230,7 @@ bar {
 # setup wallpapers
 $exec $HOME/.config/scripts/wallpaper.sh
 
+$exec start-polkit.sh &
 # title bar config - hide title bar
 for_window [class="^.*"] border pixel 1
 

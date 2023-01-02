@@ -27,6 +27,7 @@ echo "sherlocked" | sudo -S dnf  install ranger -y
 # img preview
 sudo dnf install w3m -y
 sudo dnf install w3m-img -y
+sudo dnf install xfce-polkit -y
 
 echo "sherlocked" | sudo -S dnf install slick-greeter -y
 

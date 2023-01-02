@@ -3,3 +3,6 @@ super + y
 
 super + shift + f
     /home/benedict/.local/bin/fullscreen.sh
+
+super + a
+    exec android-studio %f 

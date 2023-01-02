@@ -20,6 +20,7 @@ cd $TEMP
 ./cmus.sh
 ./bbdown-install.sh
 ./install-fedora-software.sh
+./vlc-install.sh
 
 rm -rf $TEMP
 
