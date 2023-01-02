@@ -66,6 +66,9 @@ bindsym $win+j exec idea
 
 bindsym $mod+Shift+v exec vmware
 
+bindsym Print exec flameshot full -p /mnt/data/Screenshots
+bindsym $mod+Shift+Print exec flameshot gui -p /mnt/data/Screenshots
+
 # kill focused window
 bindsym $mod+q kill
 

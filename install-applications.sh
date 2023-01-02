@@ -21,6 +21,7 @@ cd $TEMP
 ./bbdown-install.sh
 ./install-fedora-software.sh
 ./vlc-install.sh
+./screenshot-tool.sh
 
 rm -rf $TEMP
 
