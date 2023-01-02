@@ -1,5 +1,5 @@
 [Configuration]
-FontName=SauceCodePro Nerd Font Mono 12
+FontName=JetBrainsMono Nerd Font 12
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -29,8 +29,6 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
 BackgroundDarkness=0.700000
-RunCustomCommand=TRUE
-CustomCommand=zsh
 ColorForeground=#CDD6F4
 ColorBackground=#1E1E2E
 ColorCursor=#F5E0DC
@@ -42,4 +40,6 @@ ColorSelectionUseDefault=FALSE
 TabActivityColor=#FAB387
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+RunCustomCommand=TRUE
+CustomCommand=zsh
 
