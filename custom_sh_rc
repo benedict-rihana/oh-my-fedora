@@ -5,7 +5,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 export LD_LIBRARY_PATH="usr/lib64"
 
-export MONITOR_1="DisplayPort-6"
+export MONITOR_1="HDMI-A-0"
 
 export USER_MAN=$HOME/.local/manuals
 
