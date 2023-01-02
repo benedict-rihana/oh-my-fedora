@@ -6,3 +6,19 @@ super + shift + f
 
 super + a
     exec android-studio %f 
+
+alt + shift + p
+    cmus-remote -p 
+
+alt + shift + u
+    cmus-remote -u
+
+alt + shift + s
+    cmus-remote -s 
+
+super + shift + n
+    cmus-remote -n 
+
+super + shift + r
+    cmus-remote -r
+
