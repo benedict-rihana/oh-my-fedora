@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=google-chrome --new-window https://game.maj-soul.com/1/
+Type=Application
+Categories=Game
+Name=雀魂麻将
+Icon=/mnt/data/Pictures/Logos/maj-soul.png
+Terminal=false

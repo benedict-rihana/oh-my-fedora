@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=Godot
+Type=Application
+Categories=Development
+Name=Godot Engine
+Icon=/mnt/data/Pictures/Logos/godot-logo-outline.svg
+Terminal=false

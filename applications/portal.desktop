@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=google-chrome --new-window http://benedicts-mini/
+Type=Application
+Categories=Internet
+Name=Home Page
+Icon=/mnt/data/Pictures/Logos/home-index.jpg
+Terminal=false
