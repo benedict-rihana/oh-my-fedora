@@ -21,7 +21,7 @@ esac
 if [[ $artist = *[!\ ]* ]]; then
     song=$(echo "$output" | grep "^tag title" | cut -c 11-)
 
-    echo -n "%{F$iconcolor}$icon%{F-} %{F$iconcolor}song - $artist%{F-}"
+    echo -n "%{F$iconcolor}$icon%{F-} %{F$iconcolor}${song} - ${artist}%{F-}"
 elif [[ $path = *[!\ ]* ]]; then
     IFS="/"
     read -ra parts <<< "$path"
