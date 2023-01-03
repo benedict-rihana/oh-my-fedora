@@ -7,6 +7,9 @@ super + shift + f
 super + a
     exec android-studio %f 
 
+super + shift + m
+    xfce4-terminal -e cmus
+
 alt + shift + p
     cmus-remote -p 
 

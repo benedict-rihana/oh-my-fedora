@@ -19,6 +19,7 @@ alias dev="cd ~/Projects/"
 alias downloads="cd ~/Downloads/"
 alias goconf="cd ~/.config/"
 alias mydata="cd ~/Data/"
+alias fedoraman="cd ~/Projects/oh-my-fedora-man/"
 
 if [[ -f ~/.proxyrc ]]; then
     . ~/.proxyrc
