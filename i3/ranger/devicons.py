@@ -229,6 +229,8 @@ dir_node_exact_matches = {
 # English
     '.git'                             : '',
     'Repositories'                     : '',
+    'Projects'                         : '',
+    'Programming'                      : '',
     'Desktop'                          : '',
     'Documents'                        : '',
     'Books'                            : '',
@@ -236,6 +238,7 @@ dir_node_exact_matches = {
     'Dotfiles'                         : '',
     'Dropbox'                          : '',
     'Music'                            : '',
+    'Movies'                            : '',
     'Pictures'                         : '',
     'Screenshots'                      : '',
     'Public'                           : '',
@@ -246,6 +249,10 @@ dir_node_exact_matches = {
     'go'                               : '',
     'workspace'                        : '',
     'OneDrive'                         : '',
+    'SteamLibrary'                     : '',
+    'VirtualMachines'                  : '',
+    'Software'                         : '',
+    'Applications'                     : '',
 # Spanish
     'Escritorio'                       : '',
     'Documentos'                       : '',
