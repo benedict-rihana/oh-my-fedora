@@ -64,7 +64,7 @@ module-margin-right = 0
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "JetBrainsMono Nerd Font:size=10;2"
 font-1 = "JetBrainsMono Nerd Font:size=22;5"
-font-2 = "Noto Sans CJK:size=10;2"
+font-2 = "JetBrainsMono Nerd Font:size=10;2"
 font-3 = "JetBrainsMono Nerd Font:size=20;5"
 
 modules-left = menu sep i3 sep window-title maximize closewindow
