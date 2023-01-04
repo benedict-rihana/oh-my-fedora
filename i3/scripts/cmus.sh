@@ -14,14 +14,19 @@ case $cmusstatus in
         icon=" "
         ;;
     "stopped")
-        echo
-        exit 0
+        icon=" [Stopped]"
+        ;;
+        #echo -n " - No Tile - | - No Artist -"
+        #exit 0
 esac
+
+icon_len=${#icon}
+max_length=$((40-${icon_len}+2))
 
 if [[ $artist = *[!\ ]* ]]; then
     song=$(echo "$output" | grep "^tag title" | cut -c 11-)
     DISPLAY_LABEL="${song} - ${artist}"
-    DISPLAY_LABEL=${DISPLAY_LABEL:0:60}
+    DISPLAY_LABEL=${DISPLAY_LABEL:0:$max_length}
     OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}${DISPLAY_LABEL}%{F-}"
     echo -n ${OUTPUT}
 elif [[ $path = *[!\ ]* ]]; then
@@ -30,7 +35,7 @@ elif [[ $path = *[!\ ]* ]]; then
     for i in "${parts[@]}"; do
         file=$i
     done
-    DISPLAY_LABEL=${file:0:60}
+    DISPLAY_LABEL=${file:0:max_length}
     OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}$DISPLAY_LABEL%{F-}"
     echo -n ${OUTPUT}
 else
