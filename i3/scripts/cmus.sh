@@ -20,16 +20,19 @@ esac
 
 if [[ $artist = *[!\ ]* ]]; then
     song=$(echo "$output" | grep "^tag title" | cut -c 11-)
-    OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}${song} - ${artist}%{F-}"
-    echo -n ${OUTPUT:0:60}
+    DISPLAY_LABEL="${song} - ${artist}"
+    DISPLAY_LABEL=${DISPLAY_LABEL:0:60}
+    OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}${DISPLAY_LABEL}%{F-}"
+    echo -n ${OUTPUT}
 elif [[ $path = *[!\ ]* ]]; then
     IFS="/"
     read -ra parts <<< "$path"
     for i in "${parts[@]}"; do
         file=$i
     done
-    OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}$file%{F-}"
-    echo -n ${OUTPUT:0:60}
+    DISPLAY_LABEL=${file:0:60}
+    OUTPUT="%{F$iconcolor}$icon%{F-} %{F$iconcolor}$DISPLAY_LABEL%{F-}"
+    echo -n ${OUTPUT}
 else
         echo
 fi
