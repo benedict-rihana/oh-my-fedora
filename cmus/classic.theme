@@ -20,7 +20,7 @@
 set color_cmdline_fg=blue
 set color_cmdline_bg=darkgray
 # the vertical line on the main window
-set color_separator=white
+set color_separator=lightblue
 
 # this displays how much time there is left from the song
 set color_statusline_bg=darkgray
@@ -45,12 +45,12 @@ set color_win_dir=blue
 ### ---- settings for the INACTIVE window ---- ###
 
 # the played entries colors when selected
-set color_win_inactive_cur_sel_bg=darkgray
-set color_win_inactive_cur_sel_fg=lightblue
+set color_win_inactive_cur_sel_bg=black
+set color_win_inactive_cur_sel_fg=yellow
 
 # the inactive entries colors when selected
-set color_win_inactive_sel_bg=darkgray
-set color_win_inactive_sel_fg=lightblue
+set color_win_inactive_sel_bg=black
+set color_win_inactive_sel_fg=magenta
 
 ### ---- settings for the ACTIVE window ---- ###
 
