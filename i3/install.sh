@@ -79,5 +79,6 @@ cp -r sxhkd $CONF/
 echo "sherlocked" | sudo -S cp i3-window-title /usr/local/bin/
 # echo "sherlocked" | sudo -S cp i3lock-color /usr/local/bin/
 cp window_titles.yml $CONF/
+cp -r winctrl $CONF/
 
 rm ~/.config/polybar/polybar

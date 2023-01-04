@@ -11,7 +11,7 @@ super + shift + m
     xfce4-terminal -e cmus
 
 super + shift + e
-    xfce4-terminal -e ranger
+    xfce4-terminal -e ranger -T "Terminal - Terminal-ranger-window-title - ranger"
 
 alt + shift + p
     cmus-remote -p 
