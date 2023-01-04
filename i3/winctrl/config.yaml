@@ -20,3 +20,5 @@ icons:
 
 terminal-class:
   - "xfce4-terminal"
+
+min-title-length: 40
