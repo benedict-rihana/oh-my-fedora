@@ -1,2 +1,2 @@
 colorscheme classic
-set format_title="Terminal - Terminal-cmus-window-title - cmus"
+set format_title="%{artist} - %{title} - cmus"

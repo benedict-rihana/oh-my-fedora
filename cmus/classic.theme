@@ -19,7 +19,6 @@
 # where you type your commands
 set color_cmdline_fg=blue
 set color_cmdline_bg=darkgray
-
 # the vertical line on the main window
 set color_separator=white
 
@@ -30,7 +29,6 @@ set color_statusline_fg=magenta
 # the songs title is displayed here
 set color_titleline_bg=darkgray
 set color_titleline_fg=yellow
-
 # the colors of the main window
 set color_win_bg=black
 set color_win_fg=blue
@@ -42,7 +40,7 @@ set color_win_cur=blue
 set color_win_dir=blue
 
 # color of the inactive songnames 
-set color_win_fg=blue
+#set color_win_fg=blue
 
 ### ---- settings for the INACTIVE window ---- ###
 
