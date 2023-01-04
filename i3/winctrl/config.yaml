@@ -17,10 +17,11 @@ icons:
   jetbrains-idea-ce: ""
   jetbrains-studio: ""
   vlc: "嗢"
+  lazygit: ""
 
 terminal-class:
   - "xfce4-terminal"
 
 min-title-length: 40
 
-max-title-length: 76
+max-title-length: 80
