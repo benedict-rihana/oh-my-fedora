@@ -2,6 +2,7 @@
 
 # install zsh
 echo "sherlocked" | sudo -S dnf install zsh -y
+echo "sherlocked" | sudo -S dnf install sqlite -y
 # echo "sherlocked" | sudo -S chsh -s /usr/bin/zsh
 # chsh -s /usr/bin/zsh benedict
 
