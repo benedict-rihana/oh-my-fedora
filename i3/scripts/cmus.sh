@@ -3,7 +3,7 @@
 iconcolor=#f5cee7
 
 output=$(cmus-remote -C status)
-artist=$(echo "$output" | grep "^tag artist" | cut -c 12-)
+artist=$(echo "$output" | grep "^tag artist " | cut -c 12-)
 path=$(echo "$output" | grep "^file" | cut -c 12-)
 cmusstatus=$(echo "$output"| grep "^status" | cut -c 8-)
 case $cmusstatus in 
