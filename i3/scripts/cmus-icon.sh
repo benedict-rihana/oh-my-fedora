@@ -6,15 +6,17 @@ output=$(cmus-remote -C status)
 cmusstatus=$(echo "$output"| grep "^status" | cut -c 8-)
 case $cmusstatus in 
     "playing")
-        icon="  "
+        icon=" "
         ;;
     "paused")
-        icon="  "
+        icon=""
         ;;
     "stopped")
-        icon=" [Stopped]"
+        icon=""
         ;;
         #echo -n " - No Tile - | - No Artist -"
         #exit 0
 esac
+
+echo $icon
 
