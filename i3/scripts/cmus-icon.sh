@@ -6,7 +6,7 @@ output=$(cmus-remote -C status)
 cmusstatus=$(echo "$output"| grep "^status" | cut -c 8-)
 case $cmusstatus in 
     "playing")
-        icon=" "
+        icon=""
         ;;
     "paused")
         icon=""
