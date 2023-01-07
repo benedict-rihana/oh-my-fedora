@@ -234,6 +234,7 @@ dir_node_exact_matches = {
     'Desktop'                          : '',
     'Documents'                        : '',
     'Books'                            : '',
+    'Comics'                           : '龎',
     'Downloads'                        : '',
     'Dotfiles'                         : '',
     'Dropbox'                          : '',
