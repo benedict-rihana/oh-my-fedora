@@ -64,10 +64,23 @@ def print_terminal_window_title(title, wclass):
         else:
             print("%s  %s" % (icon, format_win_title(app_title.title())), flush=True)
     else:
+        icon = app_icons.get(wclass)
+        if icon is None:
+            icon = default_icon
         print("%s  %s" % (icon, format_win_title(application)), flush=True)
 
 
+def print_title_without_wclass(title):
+    icon = app_icons.get(title)
+    if icon is None:
+        icon = default_icon
+    print("%s  %s" % (icon, format_win_title(title)), flush=True)
+
+
 def format_title(title, wclass):
+    if wclass is None:
+        print_title_without_wclass(title)
+        return
     is_terminal = is_terminal_app(title, wclass)
     if is_terminal:
         print_terminal_window_title(title, wclass)
@@ -117,7 +130,10 @@ def print_content(title, wclass):
         return
     elif action == "title":
         # components = focuse.split("-")
-        format_title(title, wclass.lower())
+        if wclass is None:
+            format_title(title, wclass)
+        else:
+            format_title(title, wclass.lower())
 
 
 def on_window_focus(i3, e):
