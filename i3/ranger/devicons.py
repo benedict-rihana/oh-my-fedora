@@ -12,7 +12,7 @@ import os
 xdgs_dirs = {
     os.path.basename(os.getenv(key).rstrip('/')): icon
     for key, icon in (
-        ('XDG_DOCUMENTS_DIR', ''),
+        ('XDG_DOCUMENTS_DIR', ''),
         ('XDG_DOWNLOAD_DIR', ''),
         ('XDG_CONFIG_DIR', ''),
         ('XDG_MUSIC_DIR', ''),
@@ -232,14 +232,16 @@ dir_node_exact_matches = {
     'Projects'                         : '',
     'Programming'                      : '',
     'Desktop'                          : '',
-    'Documents'                        : '',
+    'Documents'                        : '',
     'Books'                            : '',
-    'Comics'                           : '龎',
+    'Comics'                           : '',
     'Downloads'                        : '',
+    'Library'                          : '',
+    'Libraries'                        : '',
     'Dotfiles'                         : '',
     'Dropbox'                          : '',
     'Music'                            : '',
-    'Movies'                            : '',
+    'Movies'                           : '',
     'Pictures'                         : '',
     'Screenshots'                      : '',
     'Public'                           : '',
@@ -256,7 +258,7 @@ dir_node_exact_matches = {
     'Applications'                     : '',
 # Spanish
     'Escritorio'                       : '',
-    'Documentos'                       : '',
+    'Documentos'                       : '',
     'Descargas'                        : '',
     'Música'                           : '',
     'Imágenes'                         : '',
@@ -265,14 +267,14 @@ dir_node_exact_matches = {
     'Vídeos'                           : '',
 # French
     'Bureau'                           : '',
-    'Documents'                        : '',
+    'Documents'                        : '',
     'Images'                           : '',
     'Musique'                          : '',
     'Publique'                         : '',
     'Téléchargements'                  : '',
     'Vidéos'                           : '',
 # Portuguese
-    'Documentos'                       : '',
+    'Documentos'                       : '',
     'Imagens'                          : '',
     'Modelos'                          : '',
     'Música'                           : '',
@@ -305,7 +307,7 @@ dir_node_exact_matches = {
     'Videók'                           : '',
 # Chinese(Simple)
     '桌面'                             : '',
-    '文档'                             : '',
+    '文档'                             : '',
     '下载'                             : '',
     '音乐'                             : '',
     '图片'                             : '',
@@ -315,7 +317,7 @@ dir_node_exact_matches = {
     '视频'                             : '',
 # Chinese(Traditional)
     '桌面'                             : '',
-    '文檔'                             : '',
+    '文檔'                             : '',
     '下載'                             : '',
     '音樂'                             : '',
     '圖片'                             : '',

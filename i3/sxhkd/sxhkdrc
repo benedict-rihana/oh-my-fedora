@@ -28,3 +28,5 @@ super + shift + n
 super + shift + r
     cmus-remote -r
 
+super + l
+    lock.sh
