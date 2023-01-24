@@ -75,6 +75,7 @@ modules-left = menu i3 arrow3 android-studio firefox mail arrow2 window-title ma
 # modules-center = arrow-middle-left cpu2 arrow-middle-right
 modules-center = 
 modules-right =  arrow5 cmus-icon-prev cider-icon-prev cmus-icon cider-playpause-icon cmus-icon-next cider-icon-next cmus cider arrow0 filesystem cpu2 memory2 date volume powermenu arrow1
+#modules-right =  arrow5 cmus-icon-prev cmus-icon cmus-icon-next cmus cider arrow0 filesystem cpu2 memory2 date volume powermenu arrow1
 
 ;separator = |
 
