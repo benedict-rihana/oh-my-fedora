@@ -68,6 +68,9 @@ echo "sherlocked"| sudo -S dnf install cargo -y
 
 # install ftp client
 echo "sherlocked" | sudo -S dnf install filezilla -y
+# theme gui configuration
+echo "sherlocked" | sudo -S dnf install lxappearance -y
+echo "sherlocked" | sudo -S dnf install kvantum -y
 
 echo "sherlocked" | sudo -S dnf install chromium  -y
 
